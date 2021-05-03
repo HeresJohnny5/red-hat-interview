@@ -1,0 +1,88 @@
+body {
+  background-color: #000;
+}
+
+.jumbotron {
+  background-color: #fff;
+  color: #000;
+}
+
+.logo-container {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+#logo {
+  max-width: 75px;
+  margin-right: 10px;
+}
+
+.lead {
+  border-left: 5px solid #e00;
+  padding-left: 10px;
+}
+
+fieldset.solution-border {
+  border: 2px solid #e00;
+  border-radius: 0.625em;
+  padding: 0 20px 20px 20px;
+  margin-bottom: 24px;
+}
+
+fieldset.solution-border > p {
+  color: #fff
+}
+
+fieldset.solution-border > p:last-of-type {
+  margin-bottom: 0px;
+}
+
+legend.solution-border {
+  color: #fff;
+  font-size: 1.2em;
+  font-weight: bold;
+  padding: 0 10px;
+  width: auto;
+}
+
+.key-characteristics-container {
+  border-bottom: 5px solid #e00;
+  color: #fff;
+  background-color: #1a1d28;
+  border-radius: 0.625em;
+  margin-bottom: 2rem;
+  padding: 20px;
+}
+
+ul {
+  list-style: none;
+}
+
+ul > li {
+  color: #fff;
+}
+
+ul li::before {
+  content: "\2022";
+  color: #e00;
+  display: inline-block;
+  font-weight: bold;
+  margin-left: -1em;
+  width: 1em;
+}
+
+a {
+  color: #fff;
+  transition: color .25s ease-in-out;
+}
+
+a:hover {
+  color: #e00;
+  text-decoration: none;
+}
